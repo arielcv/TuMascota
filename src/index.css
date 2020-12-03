@@ -133,7 +133,7 @@ label.field-active{
 }
 
 .card_style{
-  marginLeft:'10px';
-  marginTop:'20px';
-  marginRight:'10px'
+  margin-left:10px;
+  margin-top:20px;
+  margin-right:10px
 }

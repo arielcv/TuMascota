@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import _ from "lodash";
 import ShopCard from "./shopCard";
+import "../index.css"
 /*
 *  Componente que representa el panle de tiendas, agrupando a las tarjetas por columnas
 *
@@ -43,13 +44,12 @@ class HomeShop extends Component {
     render() {
 
         const numberOfRows=Math.ceil(this.state.shops.length/this.props.rowSize);
-
-
         const shopRowsItems = [];
+
         for (let i = 0; i < numberOfRows; i++) {
             const {shops}=this.state;
             shopRowsItems.push(
-                <div className="row card-deck card-style">
+                <div className="row card-deck card_style">
                     {this.resizeArrayForRow(shops,i,this.props.rowSize).map((shop)=>{
                         return(
                             <ShopCard
