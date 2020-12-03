@@ -38,7 +38,6 @@ class AvatarComp extends Component {
                     </button>
                 </Link>
             </div>
-
         );
     }
 }

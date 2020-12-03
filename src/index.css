@@ -131,3 +131,9 @@ label.field-active{
   right: 0;
   transform: translateY(-50%);
 }
+
+.card_style{
+  marginLeft:'10px';
+  marginTop:'20px';
+  marginRight:'10px'
+}
