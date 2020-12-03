@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.clickable{
+  cursor: pointer;
+}
+
+.navbar{
+  margin-bottom: 30px;
+}
+
+.loginStyle{
+  margin-top: 15px;
+  margin-left: 30%;
+  border-color: #282c34;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 40%;
+  max-height: 20%;
+  text-align: center;
+}
+
+.loginHeader{
+  margin-bottom: 10%
+}
+
+.loginToRegister{
+  margin-top: 10px;
+}
+
+label{
+  transition: all 150ms ease-in;
+}
+
+label.field-active{
+  transform: translateY(-25px);
+  font-size: .9em;
+}
+
+.floating-label{
+  -webkit-appearance: none!important;
+}
+
+.carousel-style{
+  margin: auto;
+  align-content: center;
+  padding: 2%;
+  border: #282c34;
+  border-width: 50px;
+}
+
+.sliderimg {
+  width: 100%;
+  padding: 2.5%;
+}
+
+.alert-message{
+  padding: 3px;
+}
+
+.floatinglabel{
+  float: left;
+}
