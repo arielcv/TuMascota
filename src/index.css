@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/*Catala*/
 
 .clickable{
   cursor: pointer;
@@ -74,4 +75,59 @@ label.field-active{
 
 .floatinglabel{
   float: left;
+}
+
+/*Gordi*/
+
+
+@font-face {
+  font-family: 'Remachine Script';
+  /*src: local('Remachine'), url(./fonts/RemachineScript_Personal_Use.ttf) format('truetype');*/
+}
+
+.icon_mall{
+  font-family: "Remachine Script";
+  color: lightgrey;
+  cursor: pointer;
+  font-max-size: 50pt;
+}
+
+/* AVATAR COMPONENT */
+.avatar_comp{
+  position: absolute;
+  right:3%;
+  min-width: 10%;
+  min-height: 90%;
+}
+
+.info_user{
+  position:absolute;
+  left:0;
+  font-family: "Segoe Marker";
+  top:50%;
+  transform: translateY(-50%);
+}
+.img_user{
+  position:absolute;
+  border-radius: 50%;
+  border: solid lightgrey;
+  height: 80%;
+  right:0;
+  top:50%;
+  transform: translateY(-50%);
+  /*right: 0;*/
+}
+.btn_log{
+  margin: 2%;
+  position:absolute;
+  top:50%;
+  left:0;
+  transform: translateY(-50%);
+}
+.btn_reg{
+  margin: 2%;
+  position:absolute;
+  top:50%;
+  right: 0;
+  transform: translateY(-50%);
 }
