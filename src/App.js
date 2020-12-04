@@ -39,7 +39,7 @@ class App extends Component{
                         />} />
                         <Route path = "/home" render = {(props) => <HomeShop
                             shops = {12}
-                            rowSize = {3}
+                            rowSize = {4}
                         />} />
                         <Route path = "/login" component = {loginForm}/>
                         <Route path = "/registration" component = {RegisterForm} />

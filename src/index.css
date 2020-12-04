@@ -132,8 +132,20 @@ label.field-active{
   transform: translateY(-50%);
 }
 
-.card_style{
-  margin-left:10px;
-  margin-top:20px;
-  margin-right:10px
+.row-style{
+  margin-top:1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.card{
+  border: solid;
+  border-color:lightgrey;
+  border-width: 1px;
+  box-shadow:5px 5px 2px lightgray;
+}
+
+.btn-goShop{
+  position:relative;
+  float:right;
 }

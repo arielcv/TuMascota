@@ -30,12 +30,12 @@ class HomeShop extends Component {
 
     componentWillMount() {
         const shops = []
-        const ids = [1,2,3,4,5,6,7,8]
-        const shopName = ['a','b','c','d','e','f','g','8']
-        const shopDescription = ["xxx","xxx","xxx","xxx","xxx","xxx","xxx","xxx"]
-        const path = ["root","root","root","root","root","root","root","root"]
+        const ids = [1,2,3,4,5,6,7,8,9];
+        const shopName = ['a','b','c','d','e','f','g','8','9'];
+        const shopDescription = ["xxx","xxx","xxx","xxx","xxx","xxx","xxx","xxx","xxx"];
+        const path = ["http://placekitten.com/50/50","http://placekitten.com/50/50","http://placekitten.com/50/50","http://placekitten.com/50/50","http://placekitten.com/50/50","http://placekitten.com/50/50","http://placekitten.com/50/50","http://placekitten.com/50/50","http://placekitten.com/50/50"];
 
-        for (let i = 0; i < 8; i++){
+        for (let i = 0; i < 9; i++){
             shops.push({id:ids[i],shopName:shopName[i],shopDescription:shopDescription[i],path:path[i]})
         }
         this.setState({shops})
@@ -49,7 +49,7 @@ class HomeShop extends Component {
         for (let i = 0; i < numberOfRows; i++) {
             const {shops}=this.state;
             shopRowsItems.push(
-                <div className="row card-deck card_style">
+                <div className="row row-cols-1 row-cols-md-4 g-4 row-style">
                     {this.resizeArrayForRow(shops,i,this.props.rowSize).map((shop)=>{
                         return(
                             <ShopCard
