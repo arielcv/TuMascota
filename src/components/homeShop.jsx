@@ -49,7 +49,7 @@ class HomeShop extends Component {
         for (let i = 0; i < numberOfRows; i++) {
             const {shops}=this.state;
             shopRowsItems.push(
-                <div className="row card-deck card_style">
+                <div className="row">
                     {this.resizeArrayForRow(shops,i,this.props.rowSize).map((shop)=>{
                         return(
                             <ShopCard
